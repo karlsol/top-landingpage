@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,100&display=swap');
+
+
+body {
+    min-height: 100vh;
+    margin: auto;
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.welcome {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    align-self: center;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px 0px 30px;
+}
+
+.information {
+    display: flex;
+    gap: 50px;
+    padding: 50px 100px;
+    justify-content: center;
+}
+
+.info-pic {
+    height: 150px;
+    width: 150px;
+    background-color: #3882F6;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+    align-items: center;
+}
+
+.quote1 {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    max-width: 700px;
+}
+
+.author {
+    padding-left: 400px;
+    padding-top: 15px;
+}
+
+.signup-box {
+    justify-content: center;
+    margin: 100px;
+    color: #F9FAF8;;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 12px;
+}
+
+.call-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 50px 0px;
+}
+
+
+.signup-box button {
+    align-self: center;
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: solid 2px white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    margin-top: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
